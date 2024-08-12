@@ -1,3 +1,3 @@
-Apagar este frase e escrever outra aqui
+Primeiro commmit modulo10.
 
 Esse arquivo é de instruções 
