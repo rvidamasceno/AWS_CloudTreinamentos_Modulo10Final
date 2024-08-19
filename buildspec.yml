@@ -1,18 +1,22 @@
 version: 0.2
+
 phases:
+  pre_build:
+    commands:
+      - echo Instalando dependencias
+      - npm install
 
-pre_build:
-  commands:
-    - echo Install
-    - npm install
+  build:
+    commands:
+      - echo Build iniciado em `date`
+      - npm run build
 
-build:
-  commands:
-    - echo Install
-    - npm run build
+  post_build:
+    commands:
+      - echo Build Finalizado em `date`
 
 artifacts:
   files:
-    - build/**/*
-    - Scripts/**/*
+    - build/**/* 
+    - Scripts/**/* 
     - appspec.yml
