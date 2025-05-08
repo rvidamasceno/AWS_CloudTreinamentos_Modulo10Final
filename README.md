@@ -1,1 +1,1 @@
-Testar comando de pull para sincronizar os arquivos do github para minha pasta.
+Avaliação do último modulo (10) do curso AWS Upper da CloudTreinamentos.
